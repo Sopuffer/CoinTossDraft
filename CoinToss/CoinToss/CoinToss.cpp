@@ -1,7 +1,13 @@
 #pragma once
 #include <iostream>
-using namespace std;
+#include <SDL.h>
+using std::cout;
+using std::endl;
 
-int main() {
-	cout << "hello world" << endl;
+
+
+int main(int argc, char** argv) {
+	cout << "Hello World" << endl;
+
+	return 0;
 }
