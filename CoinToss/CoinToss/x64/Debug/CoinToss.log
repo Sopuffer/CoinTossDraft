@@ -1,2 +1,14 @@
 ﻿  AIManager.cpp
+  AudioManager.cpp
+  Collider.cpp
+  CollisionManager.cpp
+  CTEnemy.cpp
+  CTPlayer.cpp
+  Entity.cpp
+  EntityManager.cpp
+  InputManager.cpp
+  RenderManager.cpp
+  Sprite.cpp
+  SpriteManager.cpp
+  Generating Code...
   CoinToss.vcxproj -> C:\Programming\CoinTossDraft\CoinTossDraft\CoinToss\x64\Debug\CoinToss.exe

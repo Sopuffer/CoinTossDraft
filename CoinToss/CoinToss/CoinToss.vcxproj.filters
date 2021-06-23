@@ -91,6 +91,18 @@
     <Filter Include="Source Files\AI\Manager">
       <UniqueIdentifier>{2ef20ab2-f91a-4919-9e43-49d93825f956}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Input">
+      <UniqueIdentifier>{d32c7a49-b791-40d0-85d8-5a1ff5ed5a92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input\Manager">
+      <UniqueIdentifier>{a9fd8ee5-0069-482f-8446-92c0794fac00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{102e56ff-6039-444f-8fbe-d861d7a04098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input\Manager">
+      <UniqueIdentifier>{7790f282-a4e3-4b3a-be56-c1f04e6594ea}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CoinToss.cpp">
@@ -129,6 +141,9 @@
     <ClCompile Include="AIManager.cpp">
       <Filter>Source Files\AI\Manager</Filter>
     </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files\Input\Manager</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EntityManager.h">
@@ -163,6 +178,9 @@
     </ClInclude>
     <ClInclude Include="AIManager.h">
       <Filter>Header Files\AI\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files\Input\Manager</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
