@@ -31,6 +31,66 @@
     <Filter Include="Source Files\Collider">
       <UniqueIdentifier>{257fc38b-f4d4-4742-a868-7606553ae4d9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Render">
+      <UniqueIdentifier>{5e7a3b23-9912-428a-940e-d5742c621f49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Render\Manager">
+      <UniqueIdentifier>{d0256a0b-c961-44ee-aec5-b6512b52b39d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Render">
+      <UniqueIdentifier>{1c5370e0-d391-4baa-a3be-e38a9d41a8e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Render\Manager">
+      <UniqueIdentifier>{2726e810-cfaf-4900-92f7-719267f1735f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Render\Sprite">
+      <UniqueIdentifier>{184c08d7-e12e-4707-97f4-56167e080927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Render\Sprite">
+      <UniqueIdentifier>{93513b68-c8c4-48cf-812d-c4a65e7c7e4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Collider\Manager">
+      <UniqueIdentifier>{7d578499-af8b-4f4a-9131-de0d0326d8c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Collider\Manager">
+      <UniqueIdentifier>{8bd52a6d-db54-406e-b713-bc12a4024e98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity\Player">
+      <UniqueIdentifier>{3aa9ef18-ad38-4eee-82e6-40c1aaf5d24a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity\Enemy">
+      <UniqueIdentifier>{41e49eac-af5a-4886-825c-34ae5ab5b546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity\Player">
+      <UniqueIdentifier>{54eebbe9-f7ee-468c-b6f8-033da45ebf01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity\Enemy">
+      <UniqueIdentifier>{613e05cd-e71c-4d26-8c02-30ec624641a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sound">
+      <UniqueIdentifier>{fb9ca1bf-c5ce-43f8-867b-5bc7463c2f2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sound">
+      <UniqueIdentifier>{02a3c9e3-3bbb-4e50-8a62-afa4d5b70951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sound\Manager">
+      <UniqueIdentifier>{d17ebdd2-8bcc-4022-ab79-0b78709db618}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sound\Manager">
+      <UniqueIdentifier>{89a049b9-f091-4643-afd3-08ea3c906dc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AI">
+      <UniqueIdentifier>{1e77d005-3f4a-4d70-85b7-44c89de4421b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AI\Manager">
+      <UniqueIdentifier>{d09861c6-fae0-43a0-8e06-8297bf00c31e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI">
+      <UniqueIdentifier>{c3a2723a-266d-46cf-9b0b-95b2b60d501f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI\Manager">
+      <UniqueIdentifier>{2ef20ab2-f91a-4919-9e43-49d93825f956}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CoinToss.cpp">
@@ -39,11 +99,35 @@
     <ClCompile Include="EntityManager.cpp">
       <Filter>Source Files\Entity\Manager</Filter>
     </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Source Files\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderManager.cpp">
+      <Filter>Source Files\Render\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteManager.cpp">
+      <Filter>Source Files\Render\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Source Files\Collider\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files\Render\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="CTEnemy.cpp">
+      <Filter>Source Files\Entity\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="CTPlayer.cpp">
+      <Filter>Source Files\Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>Source Files\Sound\Manager</Filter>
+    </ClCompile>
     <ClCompile Include="Entity.cpp">
       <Filter>Source Files\Entity</Filter>
     </ClCompile>
-    <ClCompile Include="Collider.cpp">
-      <Filter>Source Files\Collider</Filter>
+    <ClCompile Include="AIManager.cpp">
+      <Filter>Source Files\AI\Manager</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -55,6 +139,30 @@
     </ClInclude>
     <ClInclude Include="Collider.h">
       <Filter>Header Files\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderManager.h">
+      <Filter>Header Files\Render\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteManager.h">
+      <Filter>Header Files\Render\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Header Files\Collider\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header Files\Render\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="CTPlayer.h">
+      <Filter>Header Files\Entity\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CTEnemy.h">
+      <Filter>Header Files\Entity\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>Header Files\Sound\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="AIManager.h">
+      <Filter>Header Files\AI\Manager</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
