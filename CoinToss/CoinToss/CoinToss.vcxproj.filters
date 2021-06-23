@@ -103,96 +103,111 @@
     <Filter Include="Source Files\Input\Manager">
       <UniqueIdentifier>{7790f282-a4e3-4b3a-be56-c1f04e6594ea}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Input\Mouse">
+      <UniqueIdentifier>{52cac0b5-75f5-4520-9e32-572185e689bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input\Keyboard">
+      <UniqueIdentifier>{2f4e33a0-5aa6-44c4-9ebd-28d770be58cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input\Mouse">
+      <UniqueIdentifier>{2a90dc5f-908f-4f9a-b4bc-7d503c7bdae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input\Keyboard">
+      <UniqueIdentifier>{a29d655c-a3fc-46e5-a8b3-d8d0a5acb50b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CoinToss.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="EntityManager.cpp">
-      <Filter>Source Files\Entity\Manager</Filter>
-    </ClCompile>
-    <ClCompile Include="Collider.cpp">
-      <Filter>Source Files\Collider</Filter>
-    </ClCompile>
-    <ClCompile Include="RenderManager.cpp">
-      <Filter>Source Files\Render\Manager</Filter>
-    </ClCompile>
-    <ClCompile Include="SpriteManager.cpp">
-      <Filter>Source Files\Render\Manager</Filter>
-    </ClCompile>
-    <ClCompile Include="CollisionManager.cpp">
-      <Filter>Source Files\Collider\Manager</Filter>
-    </ClCompile>
-    <ClCompile Include="Sprite.cpp">
-      <Filter>Source Files\Render\Sprite</Filter>
-    </ClCompile>
-    <ClCompile Include="CTEnemy.cpp">
-      <Filter>Source Files\Entity\Enemy</Filter>
-    </ClCompile>
-    <ClCompile Include="CTPlayer.cpp">
-      <Filter>Source Files\Entity\Player</Filter>
-    </ClCompile>
-    <ClCompile Include="AudioManager.cpp">
-      <Filter>Source Files\Sound\Manager</Filter>
-    </ClCompile>
-    <ClCompile Include="Entity.cpp">
-      <Filter>Source Files\Entity</Filter>
-    </ClCompile>
-    <ClCompile Include="AIManager.cpp">
+    <ClCompile Include="AI\AIManager.cpp">
       <Filter>Source Files\AI\Manager</Filter>
     </ClCompile>
-    <ClCompile Include="InputManager.cpp">
+    <ClCompile Include="Audio\AudioManager.cpp">
+      <Filter>Source Files\Sound\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\CollisionManager.cpp">
+      <Filter>Source Files\Collider\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\Collider.cpp">
+      <Filter>Source Files\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity\Entity.cpp">
+      <Filter>Source Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity\CTEnemy\CTEnemy.cpp">
+      <Filter>Source Files\Entity\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity\CTPlayer\CTPlayer.cpp">
+      <Filter>Source Files\Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity\EntityManager.cpp">
+      <Filter>Source Files\Entity\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\InputManager.cpp">
       <Filter>Source Files\Input\Manager</Filter>
     </ClCompile>
-    <ClCompile Include="Keyboard.cpp">
-      <Filter>Source Files\Input</Filter>
+    <ClCompile Include="Input\Mouse\Mouse.cpp">
+      <Filter>Source Files\Input\Mouse</Filter>
     </ClCompile>
-    <ClCompile Include="Mouse.cpp">
-      <Filter>Source Files\Input</Filter>
+    <ClCompile Include="Input\Keyboard\Keyboard.cpp">
+      <Filter>Source Files\Input\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\RenderManager.cpp">
+      <Filter>Source Files\Render\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Sprite\SpriteManager.cpp">
+      <Filter>Source Files\Render\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Sprite\Sprite.cpp">
+      <Filter>Source Files\Render\Sprite</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="EntityManager.h">
-      <Filter>Header Files\Entity\Manager</Filter>
-    </ClInclude>
-    <ClInclude Include="Entity.h">
-      <Filter>Header Files\Entity</Filter>
-    </ClInclude>
-    <ClInclude Include="Collider.h">
-      <Filter>Header Files\Collider</Filter>
-    </ClInclude>
-    <ClInclude Include="RenderManager.h">
-      <Filter>Header Files\Render\Manager</Filter>
-    </ClInclude>
-    <ClInclude Include="SpriteManager.h">
-      <Filter>Header Files\Render\Manager</Filter>
-    </ClInclude>
-    <ClInclude Include="CollisionManager.h">
-      <Filter>Header Files\Collider\Manager</Filter>
-    </ClInclude>
-    <ClInclude Include="Sprite.h">
-      <Filter>Header Files\Render\Sprite</Filter>
-    </ClInclude>
     <ClInclude Include="CTPlayer.h">
       <Filter>Header Files\Entity\Player</Filter>
     </ClInclude>
-    <ClInclude Include="CTEnemy.h">
-      <Filter>Header Files\Entity\Enemy</Filter>
-    </ClInclude>
-    <ClInclude Include="AudioManager.h">
-      <Filter>Header Files\Sound\Manager</Filter>
-    </ClInclude>
-    <ClInclude Include="AIManager.h">
+    <ClInclude Include="AI\AIManager.h">
       <Filter>Header Files\AI\Manager</Filter>
     </ClInclude>
-    <ClInclude Include="InputManager.h">
+    <ClInclude Include="Audio\AudioManager.h">
+      <Filter>Header Files\Sound\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\Collider.h">
+      <Filter>Header Files\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\CollisionManager.h">
+      <Filter>Header Files\Collider\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity\Entity.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity\CTPlayer\CTPlayer.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity\CTEnemy\CTEnemy.h">
+      <Filter>Header Files\Entity\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity\EntityManager.h">
+      <Filter>Header Files\Entity\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\Keyboard\Keyboard.h">
+      <Filter>Header Files\Input\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\Mouse\Mouse.h">
+      <Filter>Header Files\Input\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\InputManager.h">
       <Filter>Header Files\Input\Manager</Filter>
     </ClInclude>
-    <ClInclude Include="Mouse.h">
-      <Filter>Header Files\Input</Filter>
+    <ClInclude Include="Render\Sprite\SpriteManager.h">
+      <Filter>Header Files\Render\Manager</Filter>
     </ClInclude>
-    <ClInclude Include="Keyboard.h">
-      <Filter>Header Files\Input</Filter>
+    <ClInclude Include="Render\RenderManager.h">
+      <Filter>Header Files\Render\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\Sprite\Sprite.h">
+      <Filter>Header Files\Render\Sprite</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -2,7 +2,7 @@
 #include <iostream>
 #include <SDL.h>
 #include <SDL_image.h>
-#include "InputManager.h"
+#include "Input/InputManager.h"
 using std::cout;
 using std::endl;
 

@@ -1,6 +1,5 @@
-﻿  CoinToss.cpp
+﻿  EntityManager.cpp
   InputManager.cpp
-  Keyboard.cpp
-  Mouse.cpp
+  SpriteManager.cpp
   Generating Code...
   CoinToss.vcxproj -> C:\Programming\CoinTossDraft\CoinTossDraft\CoinToss\x64\Debug\CoinToss.exe
