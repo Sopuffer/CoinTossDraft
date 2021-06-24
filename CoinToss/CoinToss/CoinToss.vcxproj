@@ -174,6 +174,7 @@
     <ClInclude Include="Render\RenderManager.h" />
     <ClInclude Include="Render\Sprite\Sprite.h" />
     <ClInclude Include="Render\Sprite\SpriteManager.h" />
+    <ClInclude Include="stdafx.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -209,5 +209,8 @@
     <ClInclude Include="Render\Sprite\Sprite.h">
       <Filter>Header Files\Render\Sprite</Filter>
     </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
